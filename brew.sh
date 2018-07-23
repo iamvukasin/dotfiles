@@ -12,6 +12,9 @@ brew upgrade
 brew install bash
 brew install bash-completion2
 
+# Install `wget` with IRI support.
+brew install wget --with-iri
+
 # Install binaries
 brew install git
 brew install gradle

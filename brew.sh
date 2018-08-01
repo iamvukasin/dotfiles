@@ -18,10 +18,13 @@ brew install wget --with-iri
 # Install binaries
 brew install git
 brew install gradle
+brew install htop
 brew install node
 brew install openssl
 brew install python
+brew install rename
 brew install scrcpy
+brew install tldr
 brew install trash
 brew install tree
 brew install youtube-dl

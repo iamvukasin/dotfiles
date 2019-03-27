@@ -1,6 +1,6 @@
 {
     "bold_folder_labels": true,
-    "color_scheme": "Packages/ayu/ayu-dark.tmTheme",
+    "color_scheme": "Packages/ayu/ayu-dark.sublime-color-scheme",
     "default_encoding": "UTF-8",
     "default_line_ending": "unix",
     "draw_white_space": "all",

@@ -6,6 +6,8 @@ git pull origin master;
 
 function doIt() {
     rsync --exclude ".git/" \
+        --exclude "assets/" \
+        --exclude "init/" \
         --exclude ".DS_Store" \
         --exclude "bootstrap.sh" \
         --exclude "brew.sh" \

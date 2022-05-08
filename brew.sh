@@ -32,6 +32,7 @@ if ! fgrep -q "${BREW_PREFIX}/bin/zsh" /etc/shells; then
 fi;
 
 # Install useful binaries.
+brew install asimov
 brew install exiftool
 brew install git
 brew install htop
@@ -72,3 +73,6 @@ brew install --cask visual-studio-code
 
 # Remove outdated versions from the cellar.
 brew cleanup
+
+# Run services.
+sudo brew services start asimov

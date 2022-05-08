@@ -1,12 +1,12 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 
 # Create a new directory and enter it
-function mkd() {
+mkd() {
     mkdir -p "$@" && cd "$_";
 }
 
 # Determine size of a file or total size of a directory
-function fs() {
+fs() {
     if du -b /dev/null > /dev/null 2>&1; then
         local arg=-sbh;
     else
@@ -28,7 +28,7 @@ if [ $? -eq 0 ]; then
 fi;
 
 # Start an HTTP server from a directory, optionally specifying the port
-function server() {
+server() {
     local port="${1:-8000}";
     sleep 1 && open "http://localhost:${port}/" &
     # Set the default Content-Type to `text/plain` instead of `application/octet-stream`
@@ -38,7 +38,7 @@ function server() {
 
 # `s` with no arguments opens the current directory in Sublime Text, otherwise
 # opens the given location
-function s() {
+s() {
     if [ $# -eq 0 ]; then
         subl .;
     else
@@ -48,7 +48,7 @@ function s() {
 
 # `o` with no arguments opens the current directory, otherwise opens the given
 # location
-function o() {
+o() {
     if [ $# -eq 0 ]; then
         open .;
     else

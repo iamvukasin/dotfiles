@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 
 # Install command-line tools using Homebrew.
 
@@ -21,6 +21,15 @@ brew install findutils
 
 # Install GNU `sed`, overwriting the built-in `sed`.
 brew install gnu-sed
+
+# Install the latest version of zsh.
+brew install zsh
+
+# Switch to using brew-installed bash as default shell.
+if ! fgrep -q "${BREW_PREFIX}/bin/zsh" /etc/shells; then
+  echo "${BREW_PREFIX}/bin/zsh" | sudo tee -a /etc/shells;
+  chsh -s "${BREW_PREFIX}/bin/zsh";
+fi;
 
 # Install useful binaries.
 brew install exiftool

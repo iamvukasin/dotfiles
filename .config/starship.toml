@@ -1,0 +1,30 @@
+format = """
+$username\
+$directory\
+$git_branch\
+$git_commit\
+$git_state\
+$git_metrics\
+$git_status
+$character
+"""
+right_format = """$nodejs$python"""
+add_newline = true
+
+[directory]
+style = "bold yellow"
+
+[git_branch]
+format = "[\\($branch(:$remote_branch)\\)]($style) "
+style = "purple"
+
+[git_status]
+style = "blue"
+
+[nodejs]
+format = "[$symbol($version )]($style)"
+symbol = "JS "
+
+[python]
+format = "[${symbol}${pyenv_prefix}(${version} )(\\($virtualenv\\) )]($style)"
+pyenv_version_name = true

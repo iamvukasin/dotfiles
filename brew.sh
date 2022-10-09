@@ -25,11 +25,14 @@ brew install gnu-sed
 # Install the latest version of zsh.
 brew install zsh
 
-# Switch to using brew-installed bash as default shell.
+# Switch to using brew-installed zsh as default shell.
 if ! fgrep -q "${BREW_PREFIX}/bin/zsh" /etc/shells; then
   echo "${BREW_PREFIX}/bin/zsh" | sudo tee -a /etc/shells;
   chsh -s "${BREW_PREFIX}/bin/zsh";
 fi;
+
+# Install Oh My Zsh.
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # Install useful binaries.
 brew install asimov
@@ -42,6 +45,7 @@ brew install node
 brew install pipenv
 brew install python
 brew install rename
+brew install starship
 brew install tldr
 brew install trash
 brew install tree

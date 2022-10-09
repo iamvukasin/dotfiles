@@ -68,6 +68,7 @@ brew install --cask iina
 brew install --cask imageoptim
 brew install --cask iterm2
 brew install --cask jetbrains-toolbox
+brew install --cask karabiner-elements
 brew install --cask keepingyouawake
 brew install --cask raindropio
 brew install --cask rectangle

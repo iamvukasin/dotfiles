@@ -1,0 +1,549 @@
+{
+    "title": "Function keys",
+    "rules": [
+        {
+            "description": "Switch media keys to fn keys in IDEs and terminals",
+            "manipulators": [
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f1"
+                    },
+                    "to": [
+                        {
+                            "key_code": "f1"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "frontmost_application_if",
+                            "file_paths": [],
+                            "bundle_identifiers": [
+                                "com.googlecode.iterm2",
+                                "com.jetbrains.pycharm",
+                                "com.microsoft.VSCode"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f1",
+                        "modifiers": {
+                            "mandatory": ["fn"]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "display_brightness_decrement"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "frontmost_application_if",
+                            "file_paths": [],
+                            "bundle_identifiers": [
+                                "com.googlecode.iterm2",
+                                "com.jetbrains.pycharm",
+                                "com.microsoft.VSCode"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f2"
+                    },
+                    "to": [
+                        {
+                            "key_code": "f2"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "frontmost_application_if",
+                            "file_paths": [],
+                            "bundle_identifiers": [
+                                "com.googlecode.iterm2",
+                                "com.jetbrains.pycharm",
+                                "com.microsoft.VSCode"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f2",
+                        "modifiers": {
+                            "mandatory": ["fn"]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "display_brightness_increment"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "frontmost_application_if",
+                            "file_paths": [],
+                            "bundle_identifiers": [
+                                "com.googlecode.iterm2",
+                                "com.jetbrains.pycharm",
+                                "com.microsoft.VSCode"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f3"
+                    },
+                    "to": [
+                        {
+                            "key_code": "f3"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "frontmost_application_if",
+                            "file_paths": [],
+                            "bundle_identifiers": [
+                                "com.googlecode.iterm2",
+                                "com.jetbrains.pycharm",
+                                "com.microsoft.VSCode"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f3",
+                        "modifiers": {
+                            "mandatory": ["fn"]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "mission_control"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "frontmost_application_if",
+                            "file_paths": [],
+                            "bundle_identifiers": [
+                                "com.googlecode.iterm2",
+                                "com.jetbrains.pycharm",
+                                "com.microsoft.VSCode"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f4"
+                    },
+                    "to": [
+                        {
+                            "key_code": "f4"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "frontmost_application_if",
+                            "file_paths": [],
+                            "bundle_identifiers": [
+                                "com.googlecode.iterm2",
+                                "com.jetbrains.pycharm",
+                                "com.microsoft.VSCode"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f4",
+                        "modifiers": {
+                            "mandatory": ["fn"]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "spotlight"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "frontmost_application_if",
+                            "file_paths": [],
+                            "bundle_identifiers": [
+                                "com.googlecode.iterm2",
+                                "com.jetbrains.pycharm",
+                                "com.microsoft.VSCode"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f5"
+                    },
+                    "to": [
+                        {
+                            "key_code": "f5"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "frontmost_application_if",
+                            "file_paths": [],
+                            "bundle_identifiers": [
+                                "com.googlecode.iterm2",
+                                "com.jetbrains.pycharm",
+                                "com.microsoft.VSCode"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f5",
+                        "modifiers": {
+                            "mandatory": ["fn"]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "dictation"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "frontmost_application_if",
+                            "file_paths": [],
+                            "bundle_identifiers": [
+                                "com.googlecode.iterm2",
+                                "com.jetbrains.pycharm",
+                                "com.microsoft.VSCode"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f6"
+                    },
+                    "to": [
+                        {
+                            "key_code": "f6"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "frontmost_application_if",
+                            "file_paths": [],
+                            "bundle_identifiers": [
+                                "com.googlecode.iterm2",
+                                "com.jetbrains.pycharm",
+                                "com.microsoft.VSCode"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f7"
+                    },
+                    "to": [
+                        {
+                            "key_code": "f7"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "frontmost_application_if",
+                            "file_paths": [],
+                            "bundle_identifiers": [
+                                "com.googlecode.iterm2",
+                                "com.jetbrains.pycharm",
+                                "com.microsoft.VSCode"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f7",
+                        "modifiers": {
+                            "mandatory": ["fn"]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "rewind"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "frontmost_application_if",
+                            "file_paths": [],
+                            "bundle_identifiers": [
+                                "com.googlecode.iterm2",
+                                "com.jetbrains.pycharm",
+                                "com.microsoft.VSCode"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f8"
+                    },
+                    "to": [
+                        {
+                            "key_code": "f8"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "frontmost_application_if",
+                            "file_paths": [],
+                            "bundle_identifiers": [
+                                "com.googlecode.iterm2",
+                                "com.jetbrains.pycharm",
+                                "com.microsoft.VSCode"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f8",
+                        "modifiers": {
+                            "mandatory": ["fn"]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "play_or_pause"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "frontmost_application_if",
+                            "file_paths": [],
+                            "bundle_identifiers": [
+                                "com.googlecode.iterm2",
+                                "com.jetbrains.pycharm",
+                                "com.microsoft.VSCode"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f9"
+                    },
+                    "to": [
+                        {
+                            "key_code": "f9"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "frontmost_application_if",
+                            "file_paths": [],
+                            "bundle_identifiers": [
+                                "com.googlecode.iterm2",
+                                "com.jetbrains.pycharm",
+                                "com.microsoft.VSCode"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f9",
+                        "modifiers": {
+                            "mandatory": ["fn"]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "fast_forward"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "frontmost_application_if",
+                            "file_paths": [],
+                            "bundle_identifiers": [
+                                "com.googlecode.iterm2",
+                                "com.jetbrains.pycharm",
+                                "com.microsoft.VSCode"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f10"
+                    },
+                    "to": [
+                        {
+                            "key_code": "f10"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "frontmost_application_if",
+                            "file_paths": [],
+                            "bundle_identifiers": [
+                                "com.googlecode.iterm2",
+                                "com.jetbrains.pycharm",
+                                "com.microsoft.VSCode"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f10",
+                        "modifiers": {
+                            "mandatory": ["fn"]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "mute"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "frontmost_application_if",
+                            "file_paths": [],
+                            "bundle_identifiers": [
+                                "com.googlecode.iterm2",
+                                "com.jetbrains.pycharm",
+                                "com.microsoft.VSCode"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f11"
+                    },
+                    "to": [
+                        {
+                            "key_code": "f11"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "frontmost_application_if",
+                            "file_paths": [],
+                            "bundle_identifiers": [
+                                "com.googlecode.iterm2",
+                                "com.jetbrains.pycharm",
+                                "com.microsoft.VSCode"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f11",
+                        "modifiers": {
+                            "mandatory": ["fn"]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "volume_decrement"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "frontmost_application_if",
+                            "file_paths": [],
+                            "bundle_identifiers": [
+                                "com.googlecode.iterm2",
+                                "com.jetbrains.pycharm",
+                                "com.microsoft.VSCode"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f12"
+                    },
+                    "to": [
+                        {
+                            "key_code": "f12"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "frontmost_application_if",
+                            "file_paths": [],
+                            "bundle_identifiers": [
+                                "com.googlecode.iterm2",
+                                "com.jetbrains.pycharm",
+                                "com.microsoft.VSCode"
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "f12",
+                        "modifiers": {
+                            "mandatory": ["fn"]
+                        }
+                    },
+                    "to": [
+                        {
+                            "key_code": "volume_increment"
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "type": "frontmost_application_if",
+                            "file_paths": [],
+                            "bundle_identifiers": [
+                                "com.googlecode.iterm2",
+                                "com.jetbrains.pycharm",
+                                "com.microsoft.VSCode"
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

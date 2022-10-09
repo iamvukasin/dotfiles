@@ -377,8 +377,8 @@ defaults write com.apple.Safari InstallExtensionUpdatesAutomatically -bool true
 # iTerm 2                                                                     #
 ###############################################################################
 
-# Install the Solarized Dark theme for iTerm
-open "${HOME}/init/ayu Dark.itermcolors"
+# Install the Ayu Mirage theme for iTerm
+open "${HOME}/.config/Ayu Mirage.itermcolors"
 
 # Don’t display the annoying prompt when quitting iTerm
 defaults write com.googlecode.iterm2 PromptOnQuit -bool false

@@ -56,7 +56,6 @@ brew install z
 # Install Cask binaries.
 brew install --cask 1password
 brew install --cask aerial
-brew install --cask alfred
 brew install --cask appcleaner
 brew install --cask brave-browser
 brew install --cask dropbox
@@ -71,6 +70,7 @@ brew install --cask jetbrains-toolbox
 brew install --cask karabiner-elements
 brew install --cask keepingyouawake
 brew install --cask raindropio
+brew install --cask raycast
 brew install --cask rectangle
 brew install --cask sourcetree
 brew install --cask sublime-text

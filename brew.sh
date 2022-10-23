@@ -34,6 +34,9 @@ fi;
 # Install Oh My Zsh.
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+# Tap
+brew tap homebrew/cask-drivers
+
 # Install useful binaries.
 brew install asimov
 brew install exiftool
@@ -56,19 +59,23 @@ brew install z
 # Install Cask binaries.
 brew install --cask 1password
 brew install --cask aerial
+brew install --cask anki
 brew install --cask appcleaner
 brew install --cask brave-browser
+brew install --cask discord
 brew install --cask dropbox
 brew install --cask fig
 brew install --cask flux
 brew install --cask glance
 brew install --cask google-chrome
+brew install --cask hiddenbar
 brew install --cask iina
 brew install --cask imageoptim
 brew install --cask iterm2
 brew install --cask jetbrains-toolbox
 brew install --cask karabiner-elements
 brew install --cask keepingyouawake
+brew install --cask logitech-options
 brew install --cask raindropio
 brew install --cask raycast
 brew install --cask rectangle

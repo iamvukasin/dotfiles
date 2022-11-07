@@ -38,6 +38,9 @@ alias ls="command ls ${colorflag}"
 # Source: https://twitter.com/almonk/status/1576294814831718400
 alias todo='git grep -l TODO | xargs -n1 git blame -f -n -w | grep "$(git config user.name)" | grep TODO | sed "s/.\{9\}//" | sed "s/(.*)[[:space:]]*//"'
 
+# Push branch and open the default browser with the PR on GitHub
+alias ghpr='git push -u origin "$(git branch --show-current)" 2>&1 | grep "pull/new" | sed -E "s/remote:[[:space:]]+//g" | xargs open'
+
 # Always enable colored `grep` output
 # Note: `GREP_OPTIONS="--color=auto"` is deprecated, hence the alias usage.
 alias grep='grep --color=auto'

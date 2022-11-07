@@ -9,7 +9,7 @@ CASE_SENSITIVE="true"
 # Enable command auto-correction.
 ENABLE_CORRECTION="true"
 
-plugins=(git)
+plugins=(git z)
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
@@ -21,6 +21,10 @@ unset file;
 
 source $ZSH/oh-my-zsh.sh
 
+# Set up Starship
 eval "$(starship init zsh)"
+
+# Set up z
+source /opt/homebrew/etc/profile.d/z.sh
 
 . "$HOME/.fig/shell/zshrc.post.zsh"

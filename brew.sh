@@ -80,7 +80,6 @@ brew install --cask raindropio
 brew install --cask raycast
 brew install --cask rectangle
 brew install --cask sourcetree
-brew install --cask sublime-text
 brew install --cask visual-studio-code
 
 # Remove outdated versions from the cellar.

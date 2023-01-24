@@ -53,7 +53,6 @@ brew install tldr
 brew install trash
 brew install tree
 brew install wget
-brew install youtube-dl
 brew install z
 
 # Install Cask binaries.
@@ -72,7 +71,6 @@ brew install --cask hiddenbar
 brew install --cask iina
 brew install --cask imageoptim
 brew install --cask iterm2
-brew install --cask jetbrains-toolbox
 brew install --cask karabiner-elements
 brew install --cask keepingyouawake
 brew install --cask logitech-options

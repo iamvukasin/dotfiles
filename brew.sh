@@ -60,6 +60,7 @@ brew install --cask 1password
 brew install --cask aerial
 brew install --cask anki
 brew install --cask appcleaner
+brew install --cask arc
 brew install --cask brave-browser
 brew install --cask discord
 brew install --cask dropbox

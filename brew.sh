@@ -77,7 +77,6 @@ brew install --cask keepingyouawake
 brew install --cask logitech-options
 brew install --cask raindropio
 brew install --cask raycast
-brew install --cask rectangle
 brew install --cask sourcetree
 brew install --cask visual-studio-code
 

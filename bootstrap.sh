@@ -8,8 +8,12 @@ doIt() {
     rsync --exclude ".git/" \
         --exclude "assets/" \
         --exclude ".DS_Store" \
+        --exclude ".editorconfig" \
+        --exclude ".extra" \
         --exclude "bootstrap.sh" \
         --exclude "brew.sh" \
+        --exclude "install.sh" \
+        --exclude "mas.sh" \
         --exclude "README.md" \
         --exclude "LICENSE" \
         -avh --no-perms . ~;

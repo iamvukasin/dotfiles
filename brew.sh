@@ -34,19 +34,14 @@ fi;
 # Install Oh My Zsh.
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-# Tap
-brew tap homebrew/cask-drivers
-
 # Install useful binaries.
 brew install asimov
 brew install exiftool
 brew install git
-brew install htop
-brew install imagemagick
 brew install mackup
+brew install mas
 brew install node
-brew install pipenv
-brew install python
+brew install nvm
 brew install rename
 brew install starship
 brew install tldr
@@ -57,28 +52,28 @@ brew install z
 
 # Install Cask binaries.
 brew install --cask 1password
-brew install --cask aerial
-brew install --cask anki
 brew install --cask appcleaner
-brew install --cask arc
 brew install --cask brave-browser
+brew install --cask chatgpt
+brew install --cask craft
+brew install --cask cursor
 brew install --cask discord
 brew install --cask dropbox
-brew install --cask fig
 brew install --cask flux
-brew install --cask glance
-brew install --cask google-chrome
-brew install --cask hiddenbar
+brew install --cask gpg-suite
+brew install --cask homerow
+brew install --cask httpie-desktop
 brew install --cask iina
 brew install --cask imageoptim
 brew install --cask iterm2
-brew install --cask karabiner-elements
-brew install --cask keepingyouawake
-brew install --cask logitech-options
-brew install --cask raindropio
+brew install --cask jordanbaird-ice
+brew install --cask linear-linear
+brew install --cask logi-options+
 brew install --cask raycast
-brew install --cask sourcetree
-brew install --cask visual-studio-code
+brew install --cask shottr
+brew install --cask slack
+brew install --cask telegram
+brew install --cask tower
 
 # Remove outdated versions from the cellar.
 brew cleanup

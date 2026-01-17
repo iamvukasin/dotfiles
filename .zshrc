@@ -1,5 +1,3 @@
-. "$HOME/.fig/shell/zshrc.pre.zsh"
-
 export ZSH="$HOME/.oh-my-zsh"
 export PIPENV_VENV_IN_PROJECT=1
 
@@ -7,7 +5,8 @@ export PIPENV_VENV_IN_PROJECT=1
 CASE_SENSITIVE="true"
 
 # Enable command auto-correction.
-ENABLE_CORRECTION="true"
+setopt CORRECT
+unsetopt CORRECT_ALL
 
 plugins=(git z)
 
@@ -27,4 +26,13 @@ eval "$(starship init zsh)"
 # Set up z
 source /opt/homebrew/etc/profile.d/z.sh
 
-. "$HOME/.fig/shell/zshrc.post.zsh"
+# bun completions
+[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# pnpm
+export PNPM_HOME="$HOME/Library/pnpm"
+export PATH="$PNPM_HOME:$PATH"

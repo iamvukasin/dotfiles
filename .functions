@@ -36,13 +36,13 @@ server() {
     python -c $'import SimpleHTTPServer;\nmap = SimpleHTTPServer.SimpleHTTPRequestHandler.extensions_map;\nmap[""] = "text/plain";\nfor key, value in map.items():\n\tmap[key] = value + ";charset=UTF-8";\nSimpleHTTPServer.test();' "$port";
 }
 
-# `c` with no arguments opens the current directory in Visual Studio Code,
+# `c` with no arguments opens the current directory in Cursor,
 # otherwise opens the given location
 c() {
     if [ $# -eq 0 ]; then
-        code .;
+        cursor .;
     else
-        code "$@";
+        cursor "$@";
     fi;
 }
 

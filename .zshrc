@@ -1,5 +1,6 @@
 export ZSH="$HOME/.oh-my-zsh"
 export PIPENV_VENV_IN_PROJECT=1
+export HOMEBREW_NO_AUTO_UPDATE=1
 
 # Case-sensitive completion.
 CASE_SENSITIVE="true"
